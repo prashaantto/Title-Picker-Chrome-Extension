@@ -22,7 +22,7 @@ copyBtn.addEventListener("click", async ()=>{
             favIcon.style.backgroundSize = "cover";
             favIcon.addEventListener("click", ()=>{
                 navigator.clipboard.writeText(icon)
-                tabTitle.innerText = `FaviconURL Copied to CLIPBOARD`;
+                tabTitle.innerText = `Favicon-URL Copied to CLIPBOARD`;
             })
         }
     });
