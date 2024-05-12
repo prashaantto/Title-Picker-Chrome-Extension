@@ -1,0 +1,47 @@
+body{
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    border-radius: 25px;
+    background-color: #bcbbbb;
+    font-weight: 900;
+}
+#wrapper{
+    width: 95%;
+    height: 95%;
+    padding: 4px 8px;
+    background-color: rgba(107, 107, 107, 0.674);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#inner-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#copyBtn, #favIcon{
+    height: 60px;
+    width: 80px;
+    border: none;
+    background-color: rgba(229, 229, 229, 0.824);
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 22px;
+    border-radius: 10px;
+
+}
+
+#tabTitle{
+    background-color: rgba(229, 229, 229, 0.824);
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 15px ;
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
+
+
+}

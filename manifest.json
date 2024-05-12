@@ -1,0 +1,23 @@
+{
+    "name" : "Title-Picker Ext",
+    "description" : "A Title Picker Chrome extension",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "background" : {
+        "service_worker" : "background.js"
+    },
+
+    "permissions" : [
+        "activeTab",
+        "scripting"
+    ],
+    "icons" : {
+        "16" : "./titlePicker_icon.png",
+        "32" : "./titlePicker_icon.png",
+        "48" : "./titlePicker_icon.png"
+    },
+    "action" : {
+        "default_popup" : "popup.html"
+    }
+
+}
