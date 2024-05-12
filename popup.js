@@ -12,7 +12,7 @@ copyBtn.addEventListener("click", async ()=>{
         const [Data] = injectionResults;
         if(Data.result){
             const Title = Data.result[0];
-            tabTitle.innerText = `${Title} is Copied to CLIPBOARD`;
+            tabTitle.innerText = `${Title} Copied to CLIPBOARD`;
             await navigator.clipboard.writeText(Title);
 
             const icon = Data.result[1];
